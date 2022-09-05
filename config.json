@@ -22,7 +22,7 @@
             "IMAGE": "https://rabbit.analogscan.com/images/analog_icon.svg",
             "MAX_PRIORITY_FEE": "50000000000",
             "MAX_FEE": "100000000000",
-            "DRIP_AMOUNT": 1000000000,
+            "DRIP_AMOUNT": 50000000000,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440

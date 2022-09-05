@@ -1,11 +1,11 @@
 {
     "banner": "/analog_l.png",
     "apiBaseEndpointProduction": "/api/",
-    "apiBaseEndpointDevelopment": "http://analogfaucet.com/api/",
+    "apiBaseEndpointDevelopment": "http://localhost:5000/api/",
     "apiTimeout": 10000,
     "CAPTCHA": {
-        "siteKey": "6LdQXtUhAAAAAKv-6r0axPmDAy3tbKqgF6XbbxxP",
-        "v2siteKey": "6LcPmIYgAAAAADKWHw28ercYsZV7QbDMz_SUeK-Q", 
+        "siteKey": "6LfD-dUhAAAAAPWyqsDEQ6wmX7ZLBvmlyr46FSk0",
+        "v2siteKey":"6LfD-dUhAAAAAPWyqsDEQ6wmX7ZLBvmlyr46FSk0", 
         "action": "faucetdrip"
     }
 }
