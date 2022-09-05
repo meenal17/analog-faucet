@@ -1,0 +1,51 @@
+{
+    "GLOBAL_RL": {
+        "ID": "GLOBAL",
+        "RATELIMIT": {
+            "REVERSE_PROXIES": 2,
+            "MAX_LIMIT": 40,
+            "WINDOW_SIZE": 1,
+            "PATH": "/",
+            "SKIP_FAILED_REQUESTS": false
+        }
+    },
+    "evmchains": [
+        {
+            "ID": "C",
+            "NAME": "RABBIT TESTNET",
+            "TOKEN": "ANALOG",
+            "greylistdurationinsec": 86400,
+            "claimintervalinsec": 1800,
+            "RPC": "https://rabbit.analog-rpc.com",
+            "CHAINID": 1807,
+            "EXPLORER": "https://rabbit.analogscan.com/",
+            "IMAGE": "https://rabbit.analogscan.com/images/analog_icon.svg",
+            "MAX_PRIORITY_FEE": "50000000000",
+            "MAX_FEE": "100000000000",
+            "DRIP_AMOUNT": 1000000000,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            }
+        }
+    ],
+    "erc20tokens": [
+        {
+            "ID": "ANALOGC",
+            "HOSTID": "C",
+            "NAME": "Wrapped ANA",
+            "TOKEN": "WANA",
+            "CONTRACTADDRESS": "0x9C88330C8aB3Cf53EeF61F4b2E7b2eC8c1e7E164",
+            "DRIP_AMOUNT": 2000000000,
+            "GASLIMIT": "150000",
+            "DECIMALS": 18,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            }
+        }
+        
+      
+     
+    ]
+}
