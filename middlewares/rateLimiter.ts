@@ -11,6 +11,7 @@ export class RateLimiter {
         let rateLimiters: any = new Map()
         configs.forEach((config: any) => {
             const { RATELIMIT } = config
+console.log(RATELIMIT.WINDOW_SIZE,"im rate limit");
 
             let RL_CONFIG = {
                 MAX_LIMIT: RATELIMIT.MAX_LIMIT,
