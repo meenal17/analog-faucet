@@ -25,7 +25,7 @@
             "DRIP_AMOUNT": 50000000000,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
-                "WINDOW_SIZE": 1
+                "WINDOW_SIZE": 1440
             }
         }
     ],
@@ -41,7 +41,7 @@
             "DECIMALS": 18,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
-                "WINDOW_SIZE": 1
+                "WINDOW_SIZE": 1440
             }
         }
         
