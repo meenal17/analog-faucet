@@ -19,44 +19,67 @@
             "RPC": "https://data-seed-prebsc-1-s1.binance.org:8545",
             "CHAINID": 97,
             "EXPLORER": "https://testnet.bscscan.com",
-            "IMAGE": "https://testnet.bscscan.com/images/svg/brands/bnb.svg",
+           
             "MAX_PRIORITY_FEE": "50000000000",
             "MAX_FEE": "100000000000",
-            "DRIP_AMOUNT": 50000000000,
+            "DRIP_AMOUNT": 500000000,
             "RATELIMIT": {
             "MAX_LIMIT": 1,
             "WINDOW_SIZE": 1440
-            }
+            },
+            "IMAGE": "https://testnet.bscscan.com/images/svg/brands/bnb.svg"
             }
     ],
     "erc20tokens": [
         {
             "ID": "ANALOGC",
             "HOSTID": "C",
-            "NAME": "Ethereum Token",
-            "TOKEN": "ETH",
-            "CONTRACTADDRESS": "0x3219d6adc1923De0A18F8255d103E33c4bC2EBD9",
-            "DRIP_AMOUNT": 2000000000,
+            "NAME": "BTC Token",
+            "TOKEN": "BTC",
+            "CONTRACTADDRESS": "0x8C9d4546Bc8c583bDD5F4c35F65709695085947F",
+            "DRIP_AMOUNT": 100000000,
+           
             "GASLIMIT": "150000",
             "DECIMALS": 18,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
-            }
+            },
+            "IMAGE":"https://bscscan.com/token/images/btcb_32.png"
+
         },
+        {
+            "ID": "ANALOGC",
+            "HOSTID": "C",
+            "NAME": "Ethereum Token",
+            "TOKEN": "ETH",
+            "CONTRACTADDRESS": "0x3219d6adc1923De0A18F8255d103E33c4bC2EBD9",
+            "DRIP_AMOUNT": 1000000000,
+            "GASLIMIT": "150000",
+           
+            "DECIMALS": 18,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            },
+            "IMAGE":"https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png"
+        },
+       
         {
             "ID": "ANALOGC",
             "HOSTID": "C",
             "NAME": "Tether USD",
             "TOKEN": "USDT",
             "CONTRACTADDRESS": "0x4dbB8e18D2DfdC184257Fcef4a030d5918261D0a",
-            "DRIP_AMOUNT": 2000000000,
+            
+            "DRIP_AMOUNT": 20000000000,
             "GASLIMIT": "150000",
             "DECIMALS": 18,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
-            }
+            },
+            "IMAGE":"https://s2.coinmarketcap.com/static/img/coins/64x64/825.png"
         },
         {
             "ID": "ANALOGC",
@@ -64,13 +87,15 @@
             "NAME": "BUSD Token",
             "TOKEN": "BUSD",
             "CONTRACTADDRESS": "0x925B46d3B22416ff56E141DCB6FDB5d43f9B32c9",
-            "DRIP_AMOUNT": 2000000000,
+           
+            "DRIP_AMOUNT": 20000000000,
             "GASLIMIT": "150000",
             "DECIMALS": 18,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
-            }
+            },
+            "IMAGE":"https://bscscan.com/token/images/busd_32_2.png"
 
         },
         {
@@ -79,13 +104,14 @@
             "NAME": " XRP Token",
             "TOKEN": "XRP",
             "CONTRACTADDRESS": "0x2F77dD67b04E2FB7Ac5EaA2BAC7666Bd91aA8e92",
-            "DRIP_AMOUNT": 2000000000,
+            "DRIP_AMOUNT": 100000000000,
             "GASLIMIT": "150000",
             "DECIMALS": 18,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
-            }
+            },
+            "IMAGE": "https://bscscan.com/token/images/xrp_32.png"
 
         },
         {
@@ -94,13 +120,15 @@
             "NAME": "Cardano Token",
             "TOKEN": "ADA",
             "CONTRACTADDRESS": "0xe17AD9b47f49Fda350d2E11E8dC537f195355966",
-            "DRIP_AMOUNT": 2000000000,
+           
+            "DRIP_AMOUNT": 100000000000,
             "GASLIMIT": "150000",
             "DECIMALS": 18,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
-            }
+            },
+            "IMAGE":"https://bscscan.com/token/images/cardano_32.png"
 
         },
         {
@@ -109,13 +137,83 @@
             "NAME": "Polkadot Token",
             "TOKEN": "DOT",
             "CONTRACTADDRESS": "0xc82812f7332F0E7d05b457d1931A00582DdDa676",
-            "DRIP_AMOUNT": 2000000000,
+            
+            "DRIP_AMOUNT": 200000000000,
             "GASLIMIT": "150000",
             "DECIMALS": 18,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
-            }
+            },
+            "IMAGE": "https://bscscan.com/token/images/polkadot_32.png"
+
+        },
+        {
+            "ID": "ANALOGC",
+            "HOSTID": "C",
+            "NAME": "Shiba Token",
+            "TOKEN": "Shib",
+            "CONTRACTADDRESS": "0x603720e60fCAfDbdb91BEEC6936b40b27e5370Af",
+           
+            "DRIP_AMOUNT": 100000000000000,
+            "GASLIMIT": "150000",
+            "DECIMALS": 18,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            },
+            "IMAGE": "https://bscscan.com/token/images/shibatoken_32.png"
+
+        },
+        {
+            "ID": "ANALOGC",
+            "HOSTID": "C",
+            "NAME": "Dogecoin Token",
+            "TOKEN": "DOGE",
+            "CONTRACTADDRESS": "0x8b7453CFBEE659F819d2e3ceCB4F7099D21293CB",
+            
+            "DRIP_AMOUNT": 1000000000000,
+            "GASLIMIT": "150000",
+            "DECIMALS": 18,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            },
+            "IMAGE": "https://bscscan.com/token/images/dogecoin_32.png"
+
+        },
+        {
+            "ID": "ANALOGC",
+            "HOSTID": "C",
+            "NAME": "USD COIN",
+            "TOKEN": "USDC",
+            "CONTRACTADDRESS": "0xE945b63d2BED62841d8F02363f0626D99F9b3B60",
+            
+            "DRIP_AMOUNT": 10000000000,
+            "GASLIMIT": "150000",
+            "DECIMALS": 18,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            },
+            "IMAGE": "https://bscscan.com/token/images/centre-usdc_28.png"
+
+        },
+        {
+            "ID": "ANALOGC",
+            "HOSTID": "C",
+            "NAME": "Avalanche Token",
+            "TOKEN": "AVAX",
+            "CONTRACTADDRESS": "0xE945b63d2BED62841d8F02363f0626D99F9b3B60",
+            
+            "DRIP_AMOUNT": 50000000000,
+            "GASLIMIT": "150000",
+            "DECIMALS": 18,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            },
+            "IMAGE": "https://bscscan.com/token/images/avax_32.png"
 
         },
         {
@@ -124,13 +222,15 @@
             "NAME": "Dai Token",
             "TOKEN": "DAI",
             "CONTRACTADDRESS": "0xE306B70ae0E19BD3F1764239D13279dE22Db4929",
-            "DRIP_AMOUNT": 2000000000,
+            
+            "DRIP_AMOUNT": 20000000000,
             "GASLIMIT": "150000",
             "DECIMALS": 18,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
-            }
+            },
+            "IMAGE": "https://bscscan.com/token/images/dai_32.png"
 
         },
         {
@@ -139,32 +239,17 @@
             "NAME": "ChainLink Token",
             "TOKEN": "LINK",
             "CONTRACTADDRESS": "0xe1480f74C7F260C9eA3BAffF2673E2260e5F7D25",
-            "DRIP_AMOUNT": 2000000000,
+            "DRIP_AMOUNT": 100000000000,
+            
             "GASLIMIT": "150000",
             "DECIMALS": 18,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
-            }
+            },
+            "IMAGE": "https://bscscan.com/token/images/chainlink_32.png?v=2"
 
-        },
-        {
-            "ID": "ANALOGC",
-            "HOSTID": "C",
-            "NAME": "BTCB Token",
-            "TOKEN": "BTCB",
-            "CONTRACTADDRESS": "0x8C9d4546Bc8c583bDD5F4c35F65709695085947F",
-            "DRIP_AMOUNT": 2000000000,
-            "GASLIMIT": "150000",
-            "DECIMALS": 18,
-            "RATELIMIT": {
-                "MAX_LIMIT": 1,
-                "WINDOW_SIZE": 1440
-            }
-
-        }
-        
-      
+        } 
      
     ]
 }

@@ -111,7 +111,7 @@ const FaucetForm = (props: any) => {
                 <span style={{color: 'rgb(180, 180, 183)', fontSize: "10px", marginLeft: "5px"}}>
                     {
                         chain.CONTRACTADDRESS ?
-                        "Log20" :
+                        "BEP20" :
                         "Native"
                     }
                 </span>
