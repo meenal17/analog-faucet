@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 .css-pyd4mq-control {
     align-items: center;
     background-color: hsl(0, 0%, 100%);
-    border-color: #14103f !important;
+    border-color: #111213 !important;
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
@@ -41,8 +41,18 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     transition: all 100ms;
     box-sizing: border-box;
-    background: #14103f !important;
+    background: #2b2e30 !important;
+}
+.css-pyd4mq-control:hover{
+    background-color: #2b2e30  !important;
+    opacity: .8;
+}
+.css-pyd4mq-control:focus,.css-pyd4mq-control:active{
+    background-color: #2b2e30  !important;
+    opacity: .8;
+    border-color: transparent !important;
 }
 .css-11gcyr5-control{
-    background: #1b1659 !important;   
+    background: #2b2e30 !important;   
+    border-color: transparent !important;
 }

@@ -8,7 +8,7 @@
 .footer-box {
     max-width: 492px;
     width: 95%;
-    background-color: #18215b !important;
+    background-color: #1a1d1f  !important;
     border-radius: 4px;
     height: fit-content;
     margin-top: 20px;
@@ -20,7 +20,7 @@
     align-items: center;
     color: #b5b4b4;
     height: 45px;
-    background-color: rgb(20 16 63);
+    background-color: #2b2e30 !important;
     margin-top: 20px;
     cursor: pointer;
 }

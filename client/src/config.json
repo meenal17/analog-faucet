@@ -1,7 +1,7 @@
 {
     "banner": "/analog_l.png",
     "apiBaseEndpointProduction": "/api/",
-    "apiBaseEndpointDevelopment": "https://analogfaucet.com/api/",
+    "apiBaseEndpointDevelopment": "http://localhost:2000/api/",
     "apiTimeout": 10000,
     "CAPTCHA": {
         "siteKey": "6LfD-dUhAAAAAPWyqsDEQ6wmX7ZLBvmlyr46FSk0",

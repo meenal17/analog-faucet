@@ -119,6 +119,8 @@ router.post('/sendToken', captcha.middleware, async (req: any, res: any) => {
 // GET request for fetching all the chain and token configurations
 router.get('/getChainConfigs', (req: any, res: any) => {
     const configs: any = [...evmchains, ...erc20tokens]
+    // console.log(configs,"configs");
+    
     res.send({ configs })
 })
 
@@ -169,5 +171,10 @@ app.get('*', async (req: any, res: any) => {
 })
 
 app.listen(process.env.PORT || 2000, () => {
+    try{
     console.log(`Server started at port ${process.env.PORT || 2000}`)
+    }catch(err){
+        console.log(err,"hello");
+        
+    }
 })

@@ -178,6 +178,8 @@ const FaucetForm = (props: any) => {
             props.config.api.getChainConfigs
         )
         setChainConfigs(response?.data?.configs)
+        console.log(response?.data?.configs,"response?.data?.configs");
+        
     }
 
     function getChainParams(): {chain: string, erc20: string} {
@@ -455,7 +457,7 @@ const FaucetForm = (props: any) => {
     return (
         <div className='container'>
             <div className = "box">
-                <div className='banner' style={{backgroundImage: `url(${props.config.banner})`}}/>
+                <div className='banner' style={{backgroundImage: `url(${props.config.banner})`,backgroundSize:"200px 80px"}}/>
 
                 <div className='box-content'>
                     <div className='box-header'>
