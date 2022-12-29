@@ -56,3 +56,14 @@ body::-webkit-scrollbar-thumb {
     background: #2b2e30 !important;   
     border-color: transparent !important;
 }
+
+select option:focus,
+select option:checked,
+select option:active {
+    background: linear-gradient(#000000, #000000)!important;
+    background-color: #000000 !important; 
+    color: #ffed00 !important;
+}
+.css-18mi93w-menu:focus{
+   background-color: #000000 !important;
+}

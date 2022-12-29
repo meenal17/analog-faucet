@@ -1,11 +1,11 @@
 {
     "banner": "/analog_l.png",
     "apiBaseEndpointProduction": "/api/",
-    "apiBaseEndpointDevelopment": "http://localhost:2000/api/",
+    "apiBaseEndpointDevelopment": "https://faucet.seedx.app/api/",
     "apiTimeout": 10000,
     "CAPTCHA": {
-        "siteKey": "6LfD-dUhAAAAAPWyqsDEQ6wmX7ZLBvmlyr46FSk0",
-        "v2siteKey":"6LfD-dUhAAAAAPWyqsDEQ6wmX7ZLBvmlyr46FSk0", 
+        "siteKey": "6Le5urMjAAAAAAOoWQBB7XK6x1AN6bvuOcGYWxsW",
+        "v2siteKey":"6Le5urMjAAAAAAOoWQBB7XK6x1AN6bvuOcGYWxsW", 
         "action": "faucetdrip"
     }
 }
