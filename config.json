@@ -204,7 +204,7 @@
             "HOSTID": "C",
             "NAME": "Avalanche Token",
             "TOKEN": "AVAX",
-            "CONTRACTADDRESS": "0xE945b63d2BED62841d8F02363f0626D99F9b3B60",
+            "CONTRACTADDRESS": "0x477BFd06cD63A4598FCf20d76FbBd85BF82E5586",
             
             "DRIP_AMOUNT": 50000000000,
             "GASLIMIT": "150000",
