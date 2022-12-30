@@ -4,8 +4,8 @@
     "apiBaseEndpointDevelopment": "https://faucet.seedx.app/api/",
     "apiTimeout": 10000,
     "CAPTCHA": {
-        "siteKey": "6Le5urMjAAAAAAOoWQBB7XK6x1AN6bvuOcGYWxsW",
-        "v2siteKey":"6Le5urMjAAAAAAOoWQBB7XK6x1AN6bvuOcGYWxsW", 
+        "siteKey": "6Lcfj7YjAAAAAE0hH2BkB7V9VdfGDNY1vSnnsvOv",
+        "v2siteKey":"6Lcfj7YjAAAAAE0hH2BkB7V9VdfGDNY1vSnnsvOv", 
         "action": "faucetdrip"
     }
 }
