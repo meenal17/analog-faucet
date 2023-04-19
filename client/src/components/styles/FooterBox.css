@@ -6,21 +6,23 @@
 }
 
 .footer-box {
-    max-width: 492px;
-    width: 95%;
-    background-color: #1a1d1f  !important;
-    border-radius: 4px;
+    max-width: 375px;
+    /* width: 95%; */
+    background-color: #18215b !important;
+    border-radius: 12px;
+    height: -moz-fit-content;
     height: fit-content;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     color: rgb(180, 180, 183);
+    position: relative;
 }
 
 .return-address {
     display: flex;
     align-items: center;
-    color: #b5b4b4;
+    color:#fff;
     height: 45px;
-    background-color: #2b2e30 !important;
+    background-color:  rgb(20 16 63) !important;
     margin-top: 20px;
     cursor: pointer;
 }

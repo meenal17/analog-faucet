@@ -9,8 +9,8 @@ export default function AddNetwork(props: any) {
             </button>
 
             <button className="add-network" onClick={() => {window.open(`${props.config.EXPLORER}${props.token?.CONTRACTADDRESS ? "/address/" + props.token.CONTRACTADDRESS : ""}`, '_blank')}}>
-                <img alt="block-explorer" style={{width: "25px", height: "25px"}} src="https://bscscan.com/images/svg/brands/bnb.svg?v=1.3"/>
-                View Binance Explorer
+                <img alt="block-explorer" style={{width: "25px", height: "25px"}} src="https://explorer.taralityscan.com/images/taral-icon.png"/>
+                View Tarality Explorer
             </button>
 
             {

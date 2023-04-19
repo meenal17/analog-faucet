@@ -41,10 +41,10 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     transition: all 100ms;
     box-sizing: border-box;
-    background: #2b2e30 !important;
+    background:  rgb(20 16 63) !important;
 }
 .css-pyd4mq-control:hover{
-    background-color: #2b2e30  !important;
+    background-color:  rgb(20 16 63)  !important;
     opacity: .8;
 }
 .css-pyd4mq-control:focus,.css-pyd4mq-control:active{

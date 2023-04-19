@@ -455,9 +455,10 @@ const   FaucetForm = (props: any) => {
     }
 
     return (
-        <div className='container'>
+        <div className='container--'>
+            <div className="parent shadow m-auto">
             <div className = "box">
-                <div className='banner' style={{backgroundImage: `url(${props.config.banner})`,backgroundSize:"200px 80px"}}/>
+                <div className='banner' style={{backgroundImage: `url(${props.config.banner})`}}/>
 
                 <div className='box-content'>
                     <div className='box-header'>
@@ -546,7 +547,7 @@ const   FaucetForm = (props: any) => {
                     </div>
                 </div>
             </div>
-
+            </div>
             <FooterBox
                 chain = {chain}
                 token = {token}

@@ -170,9 +170,9 @@ app.get('*', async (req: any, res: any) => {
     res.sendFile(path.join(__dirname, "client", "index.html"))
 })
 
-app.listen(process.env.PORT || 2000, () => {
+app.listen(process.env.PORT || 4000, () => {
     try{
-    console.log(`Server started at port ${process.env.PORT || 2000}`)
+    console.log(`Server started at port ${process.env.PORT || 4000}`)
     }catch(err){
         console.log(err,"hello");
         

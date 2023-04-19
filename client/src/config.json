@@ -1,11 +1,11 @@
 {
-    "banner": "/analog_l.png",
+    "banner": "/taral_logo.png",
     "apiBaseEndpointProduction": "/api/",
-    "apiBaseEndpointDevelopment": "https://faucet.seedx.app/api/",
+    "apiBaseEndpointDevelopment": "http://143.244.129.48/api/",
     "apiTimeout": 10000,
     "CAPTCHA": {
-        "siteKey": "6Lcfj7YjAAAAAE0hH2BkB7V9VdfGDNY1vSnnsvOv",
-        "v2siteKey":"6Lcfj7YjAAAAAE0hH2BkB7V9VdfGDNY1vSnnsvOv", 
+        "siteKey": "6LeDKZ0lAAAAAE5EfkYtJ91TzeKRl5vCXolh5_zd",
+        "v2siteKey":"6LeDKZ0lAAAAAE5EfkYtJ91TzeKRl5vCXolh5_zd", 
         "action": "faucetdrip"
     }
 }
