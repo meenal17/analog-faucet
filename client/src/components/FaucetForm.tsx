@@ -178,7 +178,7 @@ const   FaucetForm = (props: any) => {
             props.config.api.getChainConfigs
         )
         setChainConfigs(response?.data?.configs)
-        console.log(response?.data?.configs,"response?.data?.configs");
+        // console.log(response?.data?.configs,"response?.data?.configs");
         
     }
 

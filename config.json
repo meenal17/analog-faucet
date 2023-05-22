@@ -12,7 +12,7 @@
     "evmchains": [
         {
             "ID": "C",
-            "NAME": "BINANCE TESTNET",
+            "NAME": "BINANCE SMART CHAIN TESTNET",
             "TOKEN": "BNB",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
