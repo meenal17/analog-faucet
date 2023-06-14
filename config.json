@@ -12,12 +12,12 @@
     "evmchains": [
         {
             "ID": "C",
-            "NAME":"Tarality Network",
-            "TOKEN": "TARAL",
+            "NAME":"Asian Scan",
+            "TOKEN": "Asian",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
-            "RPC": "https://rpc.taralityscan.com",
-            "CHAINID": 2703,
+            "RPC": "http://43.204.65.83",
+            "CHAINID": 7890,
             "EXPLORER": "https://explorer.taralityscan.com",
            
             "MAX_PRIORITY_FEE":"50000000000",
@@ -32,10 +32,10 @@
     ],
     "erc20tokens": [
         {
-            "ID": "TARAL",
+            "ID": "AsianNet",
             "HOSTID": "C",
-            "NAME": "Taral Token",
-            "TOKEN": "TARAL",
+            "NAME": "AsianNet Token",
+            "TOKEN": "AsianNet",
             "CONTRACTADDRESS": "0x2b2E847866Fc39dBe1559EaDea07e45217EE0b60",
             "DRIP_AMOUNT": 100000000,
            
