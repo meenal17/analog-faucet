@@ -13,7 +13,7 @@
         {
             "ID": "C",
             "NAME":"Wrapped ANT",
-            "TOKEN": "WANT",
+            "TOKEN": "ANT",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
             "RPC": "https://43.204.65.83",
@@ -34,8 +34,8 @@
         {
             "ID": "AsianNet",
             "HOSTID": "C",
-            "NAME": "AsianNet Token",
-            "TOKEN": "AsianNet",
+            "NAME": "Wrapped ANT",
+            "TOKEN": "ANT",
             "CONTRACTADDRESS": "0xF75f090D66B77458fc7A4A25690e6B0D07E8cFB3",
             "DRIP_AMOUNT": 100000000,
            
