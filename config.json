@@ -17,7 +17,7 @@
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
             "RPC": "https://rpc.taralityscan.com",
-            "CHAINID": 2703,
+            "CHAINID": 1205,
             "EXPLORER": "https://explorer.taralityscan.com",
            
             "MAX_PRIORITY_FEE":"50000000000",
