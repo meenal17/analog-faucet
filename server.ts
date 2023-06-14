@@ -119,7 +119,7 @@ router.post('/sendToken', captcha.middleware, async (req: any, res: any) => {
 // GET request for fetching all the chain and token configurations
 router.get('/getChainConfigs', (req: any, res: any) => {
     const configs: any = [...evmchains, ...erc20tokens]
-    // console.log(configs,"configs");
+     console.log(configs,"configs");
     
     res.send({ configs })
 })

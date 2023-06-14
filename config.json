@@ -12,13 +12,13 @@
     "evmchains": [
         {
             "ID": "C",
-            "NAME":"Asian Scan",
-            "TOKEN": "Asian",
+            "NAME":"Wrapped ANT",
+            "TOKEN": "WANT",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
-            "RPC": "http://43.204.65.83",
+            "RPC": "https://43.204.65.83",
             "CHAINID": 7890,
-            "EXPLORER": "https://explorer.taralityscan.com",
+            "EXPLORER": "https://testnet.asianscan.com",
            
             "MAX_PRIORITY_FEE":"50000000000",
             "MAX_FEE": "100000000000",
@@ -27,7 +27,7 @@
             "MAX_LIMIT": 1,
             "WINDOW_SIZE": 1440
             },
-            "IMAGE": "https://explorer.taralityscan.com/images/taral-icon.png"
+            "IMAGE": "https://testnet.asianscan.com/images/taral-icon.png"
             }
     ],
     "erc20tokens": [
@@ -36,7 +36,7 @@
             "HOSTID": "C",
             "NAME": "AsianNet Token",
             "TOKEN": "AsianNet",
-            "CONTRACTADDRESS": "0x2b2E847866Fc39dBe1559EaDea07e45217EE0b60",
+            "CONTRACTADDRESS": "0xF75f090D66B77458fc7A4A25690e6B0D07E8cFB3",
             "DRIP_AMOUNT": 100000000,
            
             "GASLIMIT": "150000",

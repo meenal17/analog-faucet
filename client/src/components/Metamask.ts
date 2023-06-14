@@ -5,6 +5,8 @@ declare global {
 }
 
 export const addNetwork = async (config: any): Promise<void> => {
+    console.log(config,"config::");
+    
     if(!config) {
         return
     }
