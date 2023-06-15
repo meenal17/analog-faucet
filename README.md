@@ -87,7 +87,7 @@ We need to configure our application with the server API endpoints and Captcha s
     "apiBaseEndpointDevelopment": "http://localhost:8000/api/",
     "apiTimeout": 10000,
     "CAPTCHA": {
-        "siteKey": "6LcNScYfAAAAAJH8fauA-okTZrmAxYqfF9gOmujf",
+        "siteKey": "6Ld_fpwmAAAAAHWy4407YksF5tE4rZxWrMWtoDQp",
         "action": "faucetdrip"
     }
 }
