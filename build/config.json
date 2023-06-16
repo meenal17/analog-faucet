@@ -1,0 +1,49 @@
+{
+    "GLOBAL_RL": {
+        "ID": "GLOBAL",
+        "RATELIMIT": {
+            "REVERSE_PROXIES": 2,
+            "MAX_LIMIT": 40,
+            "WINDOW_SIZE": 1,
+            "PATH": "/",
+            "SKIP_FAILED_REQUESTS": false
+        }
+    },
+    "evmchains": [
+        {
+            "ID": "C",
+            "NAME": "Asian Network",
+            "TOKEN": "ANT",
+            "greylistdurationinsec": 86400,
+            "claimintervalinsec": 1800,
+            "RPC": "https://testnet-rpc.asianscan.com",
+            "CHAINID": 7890,
+            "EXPLORER": "https://testnet.asianscan.com",
+            "MAX_PRIORITY_FEE": "50000000000",
+            "MAX_FEE": "100000000000",
+            "DRIP_AMOUNT": 500000000,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            },
+            "IMAGE": "https://testnet.bscscan.com/images/svg/brands/bnb.svg"
+        }
+    ],
+    "erc20tokens": [
+        {
+            "ID": "ANT",
+            "HOSTID": "C",
+            "NAME": "Wrapped ANT",
+            "TOKEN": "WANT",
+            "CONTRACTADDRESS": "0xF75f090D66B77458fc7A4A25690e6B0D07E8cFB3",
+            "DRIP_AMOUNT": 100000000,
+            "GASLIMIT": "150000",
+            "DECIMALS": 18,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            },
+            "IMAGE": "https://bscscan.com/token/images/btcb_32.png"
+        }
+    ]
+}

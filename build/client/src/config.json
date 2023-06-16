@@ -1,0 +1,11 @@
+{
+    "banner": "/taral_logo.png",
+    "apiBaseEndpointProduction": "/api/",
+    "apiBaseEndpointDevelopment": "http://localhost:4000/api/",
+    "apiTimeout": 10000,
+    "CAPTCHA": {
+        "siteKey": "6Ld_fpwmAAAAAHWy4407YksF5tE4rZxWrMWtoDQp",
+        "v2siteKey": "6Ld_fpwmAAAAAHWy4407YksF5tE4rZxWrMWtoDQp",
+        "action": "faucetdrip"
+    }
+}
