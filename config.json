@@ -12,7 +12,7 @@
     "evmchains": [
         {
             "ID": "C",
-            "NAME":" ANT",
+            "NAME": "Asian Network",
             "TOKEN": "ANT",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
@@ -27,12 +27,12 @@
             "MAX_LIMIT": 1,
             "WINDOW_SIZE": 1440
             },
-            "IMAGE": "https://testnet.asianscan.com/images/taral-icon.png"
+            "IMAGE": "https://testnet.bscscan.com/images/svg/brands/bnb.svg"
             }
     ],
     "erc20tokens": [
         {
-            "ID": "AsianNet",
+            "ID": "ANT",
             "HOSTID": "C",
             "NAME": "WANT Token",
             "TOKEN": "WANT",
@@ -45,10 +45,9 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             },
-            "IMAGE":"https://explorer.taralityscan.com/images/taral-icon.png"
+            "IMAGE":"https://bscscan.com/token/images/btcb_32.png"
 
         }
-       
      
     ]
 }
