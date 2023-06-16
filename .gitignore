@@ -7,8 +7,7 @@ client/node_modules
 # production
 build
 
-# misc
-.env
+
 
 # IDE
 .idea
