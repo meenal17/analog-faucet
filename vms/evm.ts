@@ -176,7 +176,6 @@ export default class EVM {
     }
 
     async updateNonceAndBalance(): Promise<void> {
-        console.log(this.account.address,"this.account.address");
         
         this.isUpdating = true
         try {
