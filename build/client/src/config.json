@@ -1,5 +1,5 @@
 {
-    "banner": "/taral_logo.png",
+    "banner": "/asian_logo.png",
     "apiBaseEndpointProduction": "/api/",
     "apiBaseEndpointDevelopment": "http://localhost:4000/api/",
     "apiTimeout": 10000,
