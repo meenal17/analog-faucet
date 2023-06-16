@@ -67,3 +67,10 @@ select option:active {
 .css-18mi93w-menu:focus{
    background-color: #000000 !important;
 }
+
+.body_bg {
+    /* background:#000 url("/client/public/bg.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}

@@ -215,6 +215,8 @@ const   FaucetForm = (props: any) => {
             }
         }
     }
+    console.log(props.config.api.getBalance,"props.config.api.getBalance");
+    
 
     async function updateFaucetAddress(): Promise<void> {
         if((chain || chain == 0) && chainConfigs.length > 0) {
