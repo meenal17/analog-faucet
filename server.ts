@@ -18,7 +18,7 @@ import {
 
 import {
     evmchains,
-    erc20tokens,
+  
     GLOBAL_RL
 } from './config.json'
 
@@ -36,13 +36,13 @@ new RateLimiter(app, [GLOBAL_RL])
 
 new RateLimiter(app, [
     ...evmchains,
-    ...erc20tokens
+   
 ])
 
 // address rate limiter
 new RateLimiter(app, [
     ...evmchains,
-    ...erc20tokens
+   
 ], (req: any, res: any) => {
     const addr = req.body?.address
 
@@ -87,16 +87,16 @@ evmchains.forEach((chain: ChainType): void => {
 })
 
 // Adding ERC20 token contracts to their HOST evm instances
-erc20tokens.forEach((token: ERC20Type, i: number): void => {
-    if(token.HOSTID) {
-        token = populateConfig(token, getChainByID(evmchains, token.HOSTID))
-    }
+// erc20tokens.forEach((token: ERC20Type, i: number): void => {
+//     if(token.HOSTID) {
+//         token = populateConfig(token, getChainByID(evmchains, token.HOSTID))
+//     }
 
-    erc20tokens[i] = token
-    const evm: EVMInstanceAndConfig = evms.get(getChainByID(evmchains, token.HOSTID)?.ID!)!
+//     erc20tokens[i] = token
+//     const evm: EVMInstanceAndConfig = evms.get(getChainByID(evmchains, token.HOSTID)?.ID!)!
 
-    evm?.instance.addERC20Contract(token)
-})
+//     evm?.instance.addERC20Contract(token)
+// })
 
 // POST request for sending tokens or coins
 router.post('/sendToken', captcha.middleware, async (req: any, res: any) => {
@@ -118,7 +118,7 @@ router.post('/sendToken', captcha.middleware, async (req: any, res: any) => {
 
 // GET request for fetching all the chain and token configurations
 router.get('/getChainConfigs', (req: any, res: any) => {
-    const configs: any = [...evmchains, ...erc20tokens]
+    const configs: any = [...evmchains]
      console.log(configs,"configs");
     
     res.send({ configs })
