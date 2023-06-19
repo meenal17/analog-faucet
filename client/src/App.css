@@ -41,31 +41,31 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     transition: all 100ms;
     box-sizing: border-box;
-    background:  rgb(20 16 63) !important;
+    background: rgb(41 35 68) !important;
 }
 .css-pyd4mq-control:hover{
-    background-color:  rgb(20 16 63)  !important;
+    background-color:  rgb(41 35 68) !important;
     opacity: .8;
 }
 .css-pyd4mq-control:focus,.css-pyd4mq-control:active{
-    background-color: #2b2e30  !important;
+    background-color: rgb(41 35 68)  !important;
     opacity: .8;
     border-color: transparent !important;
 }
 .css-11gcyr5-control{
-    background: #2b2e30 !important;   
+    background: rgb(41 35 68) !important;   
     border-color: transparent !important;
 }
 
 select option:focus,
 select option:checked,
 select option:active {
-    background: linear-gradient(#000000, #000000)!important;
-    background-color: #000000 !important; 
+    background: linear-gradient(#292344,#292344)!important;
+    background-color:#292344 !important; 
     color: #ffed00 !important;
 }
 .css-18mi93w-menu:focus{
-   background-color: #000000 !important;
+   background-color:#292344 !important;
 }
 
 .body_bg {
@@ -73,4 +73,8 @@ select option:active {
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain; */
+}
+.box-header input{
+    color:transparent !important;
+
 }
