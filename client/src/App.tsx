@@ -6,11 +6,17 @@ import './App.css'
 
 function App() {
   return (
+    <>
+    <div  className='body22'/>
     <div className="app">
+         
       <FaucetForm axios = {axios} config = {config}/>
+     
 
       {/* <Contribute/> */}
+
     </div>
+    </>
   )
 }
 

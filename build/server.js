@@ -31,12 +31,10 @@ app.use(body_parser_1.default.json());
 new middlewares_1.RateLimiter(app, [config_json_1.GLOBAL_RL]);
 new middlewares_1.RateLimiter(app, [
     ...config_json_1.evmchains,
-    ...config_json_1.erc20tokens
 ]);
 // address rate limiter
 new middlewares_1.RateLimiter(app, [
     ...config_json_1.evmchains,
-    ...config_json_1.erc20tokens
 ], (req, res) => {
     var _a;
     const addr = (_a = req.body) === null || _a === void 0 ? void 0 : _a.address;
@@ -74,15 +72,14 @@ config_json_1.evmchains.forEach((chain) => {
     });
 });
 // Adding ERC20 token contracts to their HOST evm instances
-config_json_1.erc20tokens.forEach((token, i) => {
-    var _a;
-    if (token.HOSTID) {
-        token = populateConfig(token, getChainByID(config_json_1.evmchains, token.HOSTID));
-    }
-    config_json_1.erc20tokens[i] = token;
-    const evm = evms.get((_a = getChainByID(config_json_1.evmchains, token.HOSTID)) === null || _a === void 0 ? void 0 : _a.ID);
-    evm === null || evm === void 0 ? void 0 : evm.instance.addERC20Contract(token);
-});
+// erc20tokens.forEach((token: ERC20Type, i: number): void => {
+//     if(token.HOSTID) {
+//         token = populateConfig(token, getChainByID(evmchains, token.HOSTID))
+//     }
+//     erc20tokens[i] = token
+//     const evm: EVMInstanceAndConfig = evms.get(getChainByID(evmchains, token.HOSTID)?.ID!)!
+//     evm?.instance.addERC20Contract(token)
+// })
 // POST request for sending tokens or coins
 router.post('/sendToken', captcha.middleware, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     var _a, _b, _c;
@@ -102,7 +99,7 @@ router.post('/sendToken', captcha.middleware, (req, res) => __awaiter(void 0, vo
 }));
 // GET request for fetching all the chain and token configurations
 router.get('/getChainConfigs', (req, res) => {
-    const configs = [...config_json_1.evmchains, ...config_json_1.erc20tokens];
+    const configs = [...config_json_1.evmchains];
     console.log(configs, "configs");
     res.send({ configs });
 });

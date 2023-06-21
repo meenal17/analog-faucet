@@ -8,7 +8,7 @@
 .footer-box {
     max-width: 375px;
     /* width: 95%; */
-    background-color:#011a28 !important;
+    background-color:#171752 !important;
     border-radius: 12px;
     height: -moz-fit-content;
     height: fit-content;
@@ -43,7 +43,7 @@
     padding-bottom: 0px;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 20px;
 }
 

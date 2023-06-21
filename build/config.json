@@ -12,13 +12,13 @@
     "evmchains": [
         {
             "ID": "C",
-            "NAME": "Asian Network",
-            "TOKEN": "ANT",
+            "NAME": "Global Network",
+            "TOKEN": "GBN",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
-            "RPC": "https://testnet-rpc.asianscan.com",
+            "RPC": "https://testnetrpc.gcscan.io",
             "CHAINID": 7890,
-            "EXPLORER": "https://testnet.asianscan.com",
+            "EXPLORER": "https://testnet.gcscan.io/",
             "MAX_PRIORITY_FEE": "50000000000",
             "MAX_FEE": "100000000000",
             "DRIP_AMOUNT": 500000000,
@@ -26,8 +26,7 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             },
-            "IMAGE": "/client/public/fav.png"
+            "IMAGE": "/fav.png"
         }
     ]
-    
 }
