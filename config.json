@@ -16,7 +16,7 @@
             "TOKEN": "TARAL",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
-            "RPC": "https://rpc.taralityscan.com",
+            "RPC": "http://43.204.190.189",
             "CHAINID": 1205,
             "EXPLORER": "https://explorer.taralityscan.com",
            
