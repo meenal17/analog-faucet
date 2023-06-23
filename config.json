@@ -1,6 +1,6 @@
 {
   "GLOBAL_RL": {
-    "ID": "GLOBAL",
+    "ID": "Taral",
     "RATELIMIT": {
       "REVERSE_PROXIES": 2,
       "MAX_LIMIT": 40,
