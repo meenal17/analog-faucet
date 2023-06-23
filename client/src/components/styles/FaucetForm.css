@@ -27,7 +27,7 @@ a {
     box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
     max-width: 492px;
     width: 100%;
-    background-image: linear-gradient(321.82deg, #011a28,#011a28)  !important;
+    background-image: linear-gradient(321.82deg, #fff,#ffff) !important;
     border-radius: 12px;
     height: -moz-fit-content;
     height: fit-content;
@@ -70,6 +70,7 @@ a {
 .select-dropdown {
     display: flex;
     align-items: center;
+    color:#6c757e !important;
 }
 
 .select-dropdown > img{
@@ -84,7 +85,7 @@ a {
 }
 
 .rate-limit-text {
-    color: #b5b4b4;
+    color: #433c66;
     font-size: 13px;
     font-weight: 300;
     word-break: break-word;
@@ -102,7 +103,7 @@ a {
     align-items: center;
     color: #333;
     height: 45px;
-    background-color: rgb(20 16 63);
+    background-color: #e5f3f8;
     margin-bottom: 8px;
     border-radius: 5px;
 }
@@ -110,7 +111,7 @@ a {
 .address-input > input {
     background-color: transparent;
     border-style: none;
-    color: white;
+    color: #77838f;
     outline: none;
     text-align: center;
     width: 100%;
@@ -120,7 +121,7 @@ a {
 
 .connect-metamask {
     cursor: pointer;
-    color: rgb(180, 180, 183);
+    color: #009e75;
     margin-right: 5px;
     display: flex;
     align-items: center;
@@ -139,23 +140,25 @@ a {
 
 .beta-alert {
     color: #ff5252;
-    font-size: 14px;
-    border: thin #ff5252 solid;
-    text-align: center;
+    font-size: 11px;
+    /* border: thin #ff5252 solid; */
+    /* text-align: center; */
     border-radius: 4px;
     margin-top: 20px;
 }
 .parent {
-    background-image: linear-gradient( var(--gradient-rotate, 246deg), #57b3cb 7.97%, #2b6aff 49.17%, #39d0d8 92.1% );
+    background-image: linear-gradient( var(--gradient-rotate, 246deg), #009e75 7.97%, #009e75 49.17%, #463f68 92.1% );
     padding: 1px;
     border-radius: 12px;
+    box-shadow: 2px 1px 5px #ddd!important;
     /* width: 30%; */
 }
 .parentfooter {
-    background-image: linear-gradient( var(--gradient-rotate, 246deg), #57b3cb 7.97%, #2b6aff 49.17%, #39d0d8 92.1% );
+    background-image: linear-gradient( var(--gradient-rotate, 246deg), #009e75 7.97%, #009e75 49.17%, #463f68 92.1% );
     padding: 1px;
     border-radius: 12px;
     margin-top: 5px;
+    box-shadow: 2px 1px 5px #ddd!important;
 }
 .shadow {
     position: relative;
@@ -167,32 +170,32 @@ a {
 }
 
 .send-button {
-    color:white;
-    margin-top: 20px;
+    color:#28a745;
+    margin-top: 7px;
     height: 36px;
     width: 100%;
     padding: 0 16px;
     border: 0px;
     border-radius: 4px;
-    background-color: #292344;
+    background-color:  rgba(40,167,69,.2);
     cursor: pointer;
     text-transform: uppercase;
 }
 
 .send-button:hover {
-    background-color:#292344;
+    background-color:#28a745;
     color: #fff;
 }
 
 .send-button-disabled {
-    color:rgba(255, 255, 255, 0.406);
-    margin-top: 20px;
+    color: #28a745;
+    margin-top: 7px;
     height: 36px;
     width: 100%;
     padding: 0 16px;
     border: 0px;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(40,167,69,.2);
     cursor: not-allowed;
     text-transform: uppercase;
 }

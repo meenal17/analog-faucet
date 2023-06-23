@@ -72,7 +72,7 @@ const   FaucetForm = (props: any) => {
         
         chainConfigs?.forEach((chain: any, i: number) => {
             let item = <div className='select-dropdown'>
-                <img alt = { chain.NAME[0] } src = { chain.IMAGE } />
+                <img alt = { chain.NAME[0] } src = { chain.IMAGE }  style={{height:'20px',width:"25px"}}/>
                 { chain.NAME }
 
                 {
@@ -105,10 +105,10 @@ const   FaucetForm = (props: any) => {
             const { chain: ch } = getChainParams();
 
             let item = <div className='select-dropdown'>
-                <img alt = { chain.NAME[0] } src = { chain.IMAGE } />
+                <img alt = { chain.NAME[0] } src = { chain.IMAGE } style={{height:'20px',width:"25px"}} />
                 { chain.ID == ch ? chain.TOKEN : chain.NAME }
 
-                <span style={{color: 'rgb(180, 180, 183)', fontSize: "10px", marginLeft: "5px"}}>
+                <span style={{color: '#009e75', fontSize: "10px", marginLeft: "5px"}}>
                     {
                         chain.CONTRACTADDRESS ?
                         "BEP20" :
@@ -412,6 +412,7 @@ const   FaucetForm = (props: any) => {
                 onChange={updateChain}
                 styles={customStyles}
                 getOptionValue ={(option: any)=>option.search}
+                isDisabled
             />
         </div>
     )
@@ -424,6 +425,7 @@ const   FaucetForm = (props: any) => {
                 onChange={updateToken}
                 styles={customStyles}
                 getOptionValue ={(option: any)=>option.search}
+                isDisabled
             />
         </div>
     )
@@ -460,24 +462,27 @@ const   FaucetForm = (props: any) => {
         <div className='container--'>
             <div className="parent shadow m-auto">
             <div className = "box">
-                <div className='banner' style={{backgroundImage: `url(${props.config.banner})`}}/>
+            <div style={{textAlign: "center", padding: "20px 5px"}}><img src="/asian_logo.png" alt="" style={{height: "42px"}}/></div>
 
                 <div className='box-content'>
                     <div className='box-header'>
                         <span>
-                            <span style={{color: "#b5b4b4"}}>Select Network</span>
+                            <span className='text-head'> Network</span>
                         </span>
 
                         <ChainDropdown /> <br/>
 
                         <div>
                             <div style={{width: "100%"}}>
-                                <span style={{color: "#b5b4b4", fontSize: "12px", float: "right"}}>
-                                    Faucet balance: {Math.round(balance/1e9 * 100) / 100} {chainConfigs[token!]?.TOKEN}
+                                <span style={{color: "#009e75", fontSize: "12px", float: "right"}}>
+                                    Faucet balance: {Math.round(balance/1e9 * 100) / 100} 
+                                    <span className="">
+                                        <img src="fav.png" alt="asian_logo.png"  style={{height:"12px",width:"12px"}}/>
+                                    </span>
                                 </span>
 
-                                <span style={{color: "#b5b4b4", fontSize: "12px"}}>
-                                    Select Asset
+                                <span className='text-head'>
+                                     Asset
                                 </span>
 
                                 <TokenDropdown/>
@@ -485,7 +490,7 @@ const   FaucetForm = (props: any) => {
                         </div>
                     </div>
 
-                    <br/>
+               
 
                     <div style={{ display: sendTokenResponse?.txHash ? "none" : "block" }}>
                         <p className='rate-limit-text'>
