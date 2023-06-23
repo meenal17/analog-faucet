@@ -26,7 +26,7 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             },
-            "IMAGE": "/client/public/fav.png"
+            "IMAGE": "/fav.png"
         }
     ],
     "erc20tokens": [
@@ -43,7 +43,7 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             },
-            "IMAGE": "/client/public/fav.png"
+            "IMAGE": "/fav.png"
         }
     ]
 }
