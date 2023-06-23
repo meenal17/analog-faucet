@@ -86,15 +86,31 @@ select option:active {
 .box-header input {
   color: transparent !important;
 }
+
+
+
+
+.cyberpunk-bg-light::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  z-index: -1;
+  pointer-events: none;
+  width: 60%;
+  border-radius: 50%;
+  opacity: 0.45;
+  mix-blend-mode: hard-light;
+}
 .cyberpunk-bg-light::before {
   left: 15px;
-  background-color: #39d0d8;
-  box-shadow: 0 0 140px 55px #39d0d8aa;
+  background-color: #d1d1d8;
+  box-shadow: 0 0 140px 55px #dfdfe3;
 }
 .cyberpunk-bg-light::after {
   right: 15px;
-  background-color: #e300ff;
-  box-shadow: 0 0 140px 55px #e300ffaa;
+  background-color: #ffcc6a;
+  box-shadow: 0 0 140px 55px #ffcb6b;
 }
 .cyberpunk-bg-light::before {
   content: "";
@@ -124,13 +140,13 @@ select option:active {
   display: none !important;
 }
 .text_style {
-  background: -webkit-linear-gradient(#f77133, #ff9136);
+  background: -webkit-linear-gradient(#d2793a, #ffcb6c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 15px !important;
 }
 .text_style2 {
-  background: -webkit-linear-gradient(#f77133, #ff9136);
+  background: -webkit-linear-gradient(#d2793a, #ffcb6c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 12px !important;

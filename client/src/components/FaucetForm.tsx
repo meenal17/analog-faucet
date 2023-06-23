@@ -477,7 +477,7 @@ const FaucetForm = (props: any) => {
         <div className="box">
           {/* <div className='banner' style={{backgroundImage: `url(${props.config.banner})`}}/> */}
           <div style={{ textAlign: "center", padding: "20px 5px 20px 5px" }}>
-            <img src="/globel_coin.png" alt="" style={{ height: "42px" }} />
+            <img src="/taral_logo.png" alt="" style={{ height: "55px" }} />
           </div>
 
           <div className="box-content">
@@ -490,13 +490,13 @@ const FaucetForm = (props: any) => {
                 <div style={{ width: "100%" }}>
                   <span
                     style={{
-                      color: "#b5b4b4",
+                      color: "#d87b3d",
                       fontSize: "12px",
                       float: "right",
                     }}
                   >
-                    Faucet balance: {Math.round((balance / 1e9) * 100) / 100}{" "}
-                  <span className="text_style2">  {chainConfigs[token!]?.TOKEN}</span>
+                    Faucet balance: <span className="" style={{color:"#ccc"}}>{Math.round((balance / 1e9) * 100) / 100}</span>    <img src="fav.png" alt="" style={{width:"15px"}} />{" "}
+                  
                   </span>
 
                   <span className="text_style">

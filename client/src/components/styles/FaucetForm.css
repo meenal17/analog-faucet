@@ -75,7 +75,7 @@ a {
 .select-dropdown > img{
     width: 25px;
     height: 25px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     margin-right: 10px;
 }
 
@@ -175,7 +175,7 @@ a {
     border: 0px;
     border-radius: 4px;
     /* background-color: #130f3f; */
-    background: linear-gradient(270deg,#eb762f,#007cda);
+    background: linear-gradient(to right,#d2793a, #ffcb6c);
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -186,14 +186,15 @@ a {
 }
 
 .send-button-disabled {
-    color:rgba(255, 255, 255, 0.406);
+    color:#fff;
     margin-top: 20px;
     height: 36px;
     width: 100%;
     padding: 0 16px;
     border: 0px;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.15);
+  background: linear-gradient(to right,#d2793a, #ffcb6c);
+ 
     cursor: not-allowed;
     text-transform: uppercase;
 }
