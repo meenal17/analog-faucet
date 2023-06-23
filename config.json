@@ -18,7 +18,7 @@
             "claimintervalinsec": 1800,
             "RPC": "http://43.204.190.189",
             "CHAINID": 1205,
-            "EXPLORER": "https://explorer.taralityscan.com",
+            "EXPLORER": "https://testnet.taralityscan.com",
            
             "MAX_PRIORITY_FEE":"50000000000",
             "MAX_FEE": "100000000000",
