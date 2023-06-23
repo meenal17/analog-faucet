@@ -27,7 +27,7 @@
         "MAX_LIMIT": 1,
         "WINDOW_SIZE": 1440
       },
-      "IMAGE": "https://explorer.taralityscan.com/images/taral-icon.png"
+      "IMAGE": "https://testnet.taralityscan.com/images/favicon.png"
     }
   ]
 }
