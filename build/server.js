@@ -100,7 +100,7 @@ router.post('/sendToken', captcha.middleware, (req, res) => __awaiter(void 0, vo
 // GET request for fetching all the chain and token configurations
 router.get('/getChainConfigs', (req, res) => {
     const configs = [...config_json_1.evmchains];
-    console.log(configs, "configs");
+    //  console.log(configs,"configs");
     res.send({ configs });
 });
 // GET request for fetching faucet address for the specified chain
