@@ -1,11 +1,11 @@
 {
     "banner": "/taral_logo.png",
     "apiBaseEndpointProduction": "/api/",
-    "apiBaseEndpointDevelopment": "http://143.244.129.48/api/",
+    "apiBaseEndpointDevelopment": "http://localhost:3000/api/",
     "apiTimeout": 10000,
     "CAPTCHA": {
-        "siteKey": "6LeDKZ0lAAAAAE5EfkYtJ91TzeKRl5vCXolh5_zd",
-        "v2siteKey":"6LeDKZ0lAAAAAE5EfkYtJ91TzeKRl5vCXolh5_zd", 
+        "siteKey": "6LfNgL0mAAAAALNAobHAJj_HFlffEHRut5D3Ec_4",
+        "v2siteKey":"6LfNgL0mAAAAALNAobHAJj_HFlffEHRut5D3Ec_4", 
         "action": "faucetdrip"
     }
 }

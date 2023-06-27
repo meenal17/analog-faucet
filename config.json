@@ -16,9 +16,9 @@
             "TOKEN": "TARAL",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
-            "RPC": "https://rpc.taralityscan.com",
-            "CHAINID": 2703,
-            "EXPLORER": "https://explorer.taralityscan.com",
+            "RPC": "http://43.204.190.189",
+            "CHAINID": 1205,
+            "EXPLORER": "https://testnet.taralityscan.com",
            
             "MAX_PRIORITY_FEE":"50000000000",
             "MAX_FEE": "100000000000",
@@ -29,26 +29,7 @@
             },
             "IMAGE": "https://explorer.taralityscan.com/images/taral-icon.png"
             }
-    ],
-    "erc20tokens": [
-        {
-            "ID": "TARAL",
-            "HOSTID": "C",
-            "NAME": "Taral Token",
-            "TOKEN": "TARAL",
-            "CONTRACTADDRESS": "0x2b2E847866Fc39dBe1559EaDea07e45217EE0b60",
-            "DRIP_AMOUNT": 100000000,
-           
-            "GASLIMIT": "150000",
-            "DECIMALS": 18,
-            "RATELIMIT": {
-                "MAX_LIMIT": 1,
-                "WINDOW_SIZE": 1440
-            },
-            "IMAGE":"https://explorer.taralityscan.com/images/taral-icon.png"
-
-        }
-       
+    
      
     ]
 }
