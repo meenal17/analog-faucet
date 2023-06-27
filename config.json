@@ -12,11 +12,11 @@
   "evmchains": [
     {
       "ID": "C",
-      "NAME": "Tarality Network",
-      "TOKEN": "TRL",
+      "NAME": "Tarality",
+      "TOKEN": "TARAL",
       "greylistdurationinsec": 86400,
       "claimintervalinsec": 1800,
-      "RPC": "http://43.204.190.189",
+      "RPC": "https://rpc.taralityscan.com",
       "CHAINID": 1205,
       "EXPLORER": "https://testnet.taralityscan.com",
 

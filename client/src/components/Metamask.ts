@@ -7,6 +7,8 @@ declare global {
 export const addNetwork = async (config: any): Promise<void> => {
     console.log(config,"config::");
     
+   try{
+    
     if(!config) {
         return
     }
@@ -29,7 +31,10 @@ export const addNetwork = async (config: any): Promise<void> => {
         }]
     }).catch((error: any): void => {
         console.log(error)
-    })      
+    })   
+   }   catch(error){
+    console.log(error);
+   }
 }
 
 export const addAsset = async (config: any): Promise<void> => {

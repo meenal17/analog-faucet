@@ -1,0 +1,32 @@
+{
+    "GLOBAL_RL": {
+        "ID": "GLOBAL",
+        "RATELIMIT": {
+            "REVERSE_PROXIES": 2,
+            "MAX_LIMIT": 40,
+            "WINDOW_SIZE": 1,
+            "PATH": "/",
+            "SKIP_FAILED_REQUESTS": false
+        }
+    },
+    "evmchains": [
+        {
+            "ID": "C",
+            "NAME": "Tarality Network",
+            "TOKEN": "TRL",
+            "greylistdurationinsec": 86400,
+            "claimintervalinsec": 1800,
+            "RPC": "https://rpc.taralityscan.com",
+            "CHAINID": 1205,
+            "EXPLORER": "https://testnet.taralityscan.com",
+            "MAX_PRIORITY_FEE": "50000000000",
+            "MAX_FEE": "100000000000",
+            "DRIP_AMOUNT": 500000000,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            },
+            "IMAGE": "https://testnet.taralityscan.com/images/favicon.png"
+        }
+    ]
+}

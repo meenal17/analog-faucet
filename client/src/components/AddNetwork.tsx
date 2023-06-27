@@ -1,6 +1,8 @@
 import { addNetwork, addAsset } from "./Metamask"
 
 export default function AddNetwork(props: any) {
+    console.log(props.config,"hello im testing::::");
+    
     return (
         <div className='footer-buttons'>
             <div className="">
