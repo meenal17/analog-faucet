@@ -18,12 +18,12 @@
       "claimintervalinsec": 1800,
       "RPC": "https://testnet-rpc.eluxscan.com/",
       "CHAINID": 4523,
-      "EXPLORER": "http://testnet.eluxscan.com",
-      "MAX_PRIORITY_FEE": "50000000000",
-      "MAX_FEE": "100000000000",
-      "DRIP_AMOUNT": 2000000000,
+      "EXPLORER":"http://testnet.eluxscan.com",
+      "MAX_PRIORITY_FEE":"50000000000",
+      "MAX_FEE":"100000000000",
+      "DRIP_AMOUNT":2000000000,
       "RATELIMIT": {
-          "MAX_LIMIT": 10,
+          "MAX_LIMIT": 2,
           "WINDOW_SIZE": 1440
       },
       "IMAGE": "http://testnet.eluxscan.com/images/favicon.png"
