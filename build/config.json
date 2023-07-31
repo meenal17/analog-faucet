@@ -1,6 +1,6 @@
 {
     "GLOBAL_RL": {
-        "ID": "Taral",
+        "ID": "Elucks",
         "RATELIMIT": {
             "REVERSE_PROXIES": 2,
             "MAX_LIMIT": 40,
@@ -12,21 +12,21 @@
     "evmchains": [
         {
             "ID": "C",
-            "NAME": "Tarality Network",
-            "TOKEN": "TRL",
+            "NAME": "Elucks Network",
+            "TOKEN": "elux",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
-            "RPC": "http://43.204.190.189",
-            "CHAINID": 1205,
-            "EXPLORER": "https://testnet.taralityscan.com",
+            "RPC": "https://testnet-rpc.eluxscan.com/",
+            "CHAINID": 4523,
+            "EXPLORER": "http://testnet.eluxscan.com",
             "MAX_PRIORITY_FEE": "50000000000",
             "MAX_FEE": "100000000000",
-            "DRIP_AMOUNT": 500000000,
+            "DRIP_AMOUNT": 2000000000,
             "RATELIMIT": {
-                "MAX_LIMIT": 1,
+                "MAX_LIMIT": 2,
                 "WINDOW_SIZE": 1440
             },
-            "IMAGE": "https://testnet.taralityscan.com/images/favicon.png"
+            "IMAGE": "http://testnet.eluxscan.com/images/favicon.png"
         }
     ]
 }
