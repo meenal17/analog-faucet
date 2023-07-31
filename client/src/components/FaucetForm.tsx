@@ -477,7 +477,7 @@ const FaucetForm = (props: any) => {
         <div className="box">
           {/* <div className='banner' style={{backgroundImage: `url(${props.config.banner})`}}/> */}
           <div style={{ textAlign: "center", padding: "20px 5px 20px 5px" }}>
-            <img src="/taral_logo.png" alt="" style={{ height: "55px" }} />
+            <img src="/logo.png" alt="" style={{ height: "30px" }} />
           </div>
 
           <div className="box-content">

@@ -11,8 +11,8 @@ export default function AddNetwork(props: any) {
             </div>
             <div className="">
             <button className="add-network" onClick={() => {window.open(`${props.config.EXPLORER}${props.token?.CONTRACTADDRESS ? "/address/" + props.token.CONTRACTADDRESS : ""}`, '_blank')}}>
-                <img alt="block-explorer" style={{width: "25px", height: "25px"}} src="/fav.png"/>
-                View Global Explorer
+                <img alt="block-explorer" style={{width: "20px", height: "20px"}} src="/fav.png"/>
+                View Elucks Explorer
             </button>
             </div>
 

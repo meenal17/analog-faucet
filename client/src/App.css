@@ -110,7 +110,7 @@ select option:active {
 .cyberpunk-bg-light::after {
   right: 15px;
   background-color: #ffcc6a;
-  box-shadow: 0 0 140px 55px #ffcb6b;
+  /* box-shadow: 0 0 140px 55px #ffcb6b; */
 }
 .cyberpunk-bg-light::before {
   content: "";
@@ -140,7 +140,7 @@ select option:active {
   display: none !important;
 }
 .text_style {
-  background: -webkit-linear-gradient(#d2793a, #ffcb6c);
+  background: -webkit-linear-gradient(#e7711d, #e7721e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 15px !important;
