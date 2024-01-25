@@ -13,28 +13,33 @@ exports.connectAccount = exports.addAsset = exports.addNetwork = void 0;
 const addNetwork = (config) => __awaiter(void 0, void 0, void 0, function* () {
     var _a, _b;
     console.log(config, "config::");
-    if (!config) {
-        return;
+    try {
+        if (!config) {
+            return;
+        }
+        if (window.ethereum == undefined) {
+            window.open('https://metamask.io/download', '_blank');
+        }
+        yield ((_a = window === null || window === void 0 ? void 0 : window.ethereum) === null || _a === void 0 ? void 0 : _a.request({
+            method: 'wallet_addEthereumChain',
+            params: [{
+                    chainId: `0x${(_b = config.CHAINID) === null || _b === void 0 ? void 0 : _b.toString(16)}`,
+                    chainName: config.NAME,
+                    nativeCurrency: {
+                        name: config.NAME,
+                        symbol: config.TOKEN,
+                        decimals: 18
+                    },
+                    rpcUrls: [config.RPC],
+                    blockExplorerUrls: config.EXPLORER ? [config.EXPLORER] : null
+                }]
+        }).catch((error) => {
+            console.log(error);
+        }));
     }
-    if (window.ethereum == undefined) {
-        window.open('https://metamask.io/download', '_blank');
-    }
-    yield ((_a = window === null || window === void 0 ? void 0 : window.ethereum) === null || _a === void 0 ? void 0 : _a.request({
-        method: 'wallet_addEthereumChain',
-        params: [{
-                chainId: `0x${(_b = config.CHAINID) === null || _b === void 0 ? void 0 : _b.toString(16)}`,
-                chainName: config.NAME,
-                nativeCurrency: {
-                    name: config.NAME,
-                    symbol: config.TOKEN,
-                    decimals: 18
-                },
-                rpcUrls: [config.RPC],
-                blockExplorerUrls: config.EXPLORER ? [config.EXPLORER] : null
-            }]
-    }).catch((error) => {
+    catch (error) {
         console.log(error);
-    }));
+    }
 });
 exports.addNetwork = addNetwork;
 const addAsset = (config) => __awaiter(void 0, void 0, void 0, function* () {
