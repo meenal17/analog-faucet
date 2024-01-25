@@ -1,6 +1,6 @@
 {
     "GLOBAL_RL": {
-        "ID": "GLOBAL",
+        "ID": "Taral",
         "RATELIMIT": {
             "REVERSE_PROXIES": 2,
             "MAX_LIMIT": 40,
@@ -12,8 +12,8 @@
     "evmchains": [
         {
             "ID": "C",
-            "NAME": "Tarality Network",
-            "TOKEN": "TRL",
+            "NAME": "Tarality",
+            "TOKEN": "TARAL",
             "greylistdurationinsec": 86400,
             "claimintervalinsec": 1800,
             "RPC": "https://rpc.taralityscan.com",
